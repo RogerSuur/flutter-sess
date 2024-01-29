@@ -8,10 +8,8 @@
 //     lucky of type bool containing true of false (you decide);
 //     pi which is a constant of type double containing the value of pi with 2 decimal points;
 
-void main() {
-  int year = 2024;
-  bool lucky = true;
-  double pi = 3.14;
-  String planet = "Earth";
-  Object obj = 2;
-}
+int year = 2024;
+bool lucky = true;
+double pi = 3.14;
+String planet = "Earth";
+Object obj = 2;
