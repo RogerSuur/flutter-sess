@@ -16,17 +16,10 @@
 //     height: required
 //     surname: optional
 
-class Person {
-  String name;
-  String cityOfOrigin;
-  int age;
-  String? surname;
-  int height;
-
-  Person(
-      {required this.name,
-      required this.cityOfOrigin,
-      required this.age,
-      required this.height,
-      this.surname});
-}
+Person person = Person(
+  name: "Alice",
+  cityOfOrigin: "Wonderland",
+  age: 28,
+  height: 170,
+  surname: "Liddell", // Optional, can be omitted
+);
