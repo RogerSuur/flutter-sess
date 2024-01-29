@@ -10,5 +10,6 @@ void main() {
 }
 
 int namedRequiredSum(int first, int second, int third) {
-  return first + second + third;
+  var result = first + second + third;
+  return result;
 }
