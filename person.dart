@@ -24,11 +24,7 @@ class Person {
   String? surname;
 
   Person(
-      {String name = 'Roger',
-      String cityOfOrigin = 'Tallinn',
-      int height = 32,
-      int age = 178,
-      String surname = 'THIS'}) {
+      String name, String cityOfOrigin, int height, int age, String surname) {
     this.name = name;
     this.cityOfOrigin = cityOfOrigin;
     this.age = age;
