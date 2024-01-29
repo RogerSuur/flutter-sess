@@ -17,10 +17,10 @@
 //     surname: optional
 
 class Person {
-  String name = '';
-  String cityOfOrigin = '';
-  int age = 0;
-  int height = 0;
+  String name;
+  String cityOfOrigin;
+  int age;
+  int height;
   String? surname;
 
   Person(
