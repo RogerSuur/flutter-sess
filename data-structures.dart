@@ -12,8 +12,4 @@ List<String> listStr = ['1', '2', '3'];
 List<Object> listObj = [1, 2, 3, 4];
 List<List> listList = [listNum, listObj, listStr];
 var setStr = {'fluorine', 'chlorine', 'bromine', 'iodine', 'astatine'};
-var mapStr = {
-  'first': 'partridge',
-  'second': 'turtledoves',
-  'fifth': 'golden rings'
-};
+var mapStr = {'first': 1, 'second': 2, 'fifth': 3};
