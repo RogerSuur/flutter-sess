@@ -30,3 +30,13 @@ class Person {
       required this.height,
       this.surname});
 }
+
+// void main() {
+//   Person student = Person(
+//       name: 'Roger',
+//       cityOfOrigin: 'tallinn',
+//       age: 32,
+//       height: 182,
+//       surname: 'this');
+//   print(student.surname);
+// }
