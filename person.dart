@@ -21,15 +21,18 @@ class Person {
   String cityOfOrigin = '';
   int age = 0;
   int height = 0;
+  String? surname;
 
   Person(
       {String name = 'Roger',
       String cityOfOrigin = 'Tallinn',
       int height = 32,
-      int age = 178}) {
+      int age = 178,
+      String surname = 'THIS'}) {
     this.name = name;
     this.cityOfOrigin = cityOfOrigin;
     this.age = age;
     this.height = height;
+    this.surname = surname;
   }
 }
