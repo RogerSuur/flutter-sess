@@ -4,11 +4,13 @@
 //     second
 //     third
 
-// void main() {
-//   var result = namedRequiredSum(1, 2, 3);
-//   print(result);
-// }
+void main() {
+  var result = namedRequiredSum(first: 75, second: -28, third: -74);
+  print(result);
+}
 
-int? namedRequiredSum({int? first, int? second, int? third}) {
-  var result = {first! + second! + third!};
+int namedRequiredSum(
+    {required int first, required int second, required int third}) {
+  var result = first + second + third;
+  return result;
 }
