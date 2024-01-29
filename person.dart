@@ -31,12 +31,11 @@ class Person {
       this.surname});
 }
 
-// void main() {
-//   Person student = Person(
-//       name: 'Roger',
-//       cityOfOrigin: 'tallinn',
-//       age: 32,
-//       height: 182,
-//       surname: 'this');
-//   print(student.surname);
-// }
+void main() {
+  Person roger = Person(
+    name: "ROGER",
+    cityOfOrigin: 'Tallinn',
+    age: 43,
+    height: 187,
+  );
+}
