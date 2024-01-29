@@ -5,6 +5,6 @@ void main() {
   print(result);
 }
 
-int optionalSum(int first, int second, {int third = 0}) {
+int optionalSum(int first, int second, [int third = 0]) {
   return first + second + third;
 }
