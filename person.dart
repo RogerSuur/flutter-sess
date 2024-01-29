@@ -17,8 +17,19 @@
 //     surname: optional
 
 class Person {
-  String name = 'Roger';
-  String cityOfOrigin = 'Tallinn';
-  int age = 32;
-  int height = 178;
+  String name = '';
+  String cityOfOrigin = '';
+  int age = 0;
+  int height = 0;
+
+  Person(
+      {String name = 'Roger',
+      String cityOfOrigin = 'Tallinn',
+      int height = 32,
+      int age = 178}) {
+    this.name = name;
+    this.cityOfOrigin = cityOfOrigin;
+    this.age = age;
+    this.height = height;
+  }
 }
