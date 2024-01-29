@@ -4,10 +4,10 @@
 //     second
 //     third
 
-void main() {
-  var result = namedRequiredSum(1, 2, 3);
-  print(result);
-}
+// void main() {
+//   var result = namedRequiredSum(1, 2, 3);
+//   print(result);
+// }
 
 int namedRequiredSum(int first, int second, int third) {
   var result = first + second + third;
