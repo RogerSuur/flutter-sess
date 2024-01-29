@@ -9,7 +9,7 @@
 //   print(result);
 // }
 
-int namedRequiredSum(int first, int second, int third) {
+void namedRequiredSum(int first, int second, int third) {
   var result = first + second + third;
   return result;
 }
