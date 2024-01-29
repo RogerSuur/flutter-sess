@@ -30,13 +30,3 @@ class Person {
       required this.height,
       this.surname});
 }
-
-void main() {
-  Person person = Person(
-    name: "Your Name",
-    cityOfOrigin: "Your City",
-    age: 30,
-    height: 175,
-    surname: "Your Surname", // This is optional
-  );
-}
