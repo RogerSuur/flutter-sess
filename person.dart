@@ -24,11 +24,9 @@ class Person {
   String? surname;
 
   Person(
-      String name, String cityOfOrigin, int height, int age, String? surname) {
-    this.name = name;
-    this.cityOfOrigin = cityOfOrigin;
-    this.age = age;
-    this.height = height;
-    this.surname = surname;
-  }
+      {required this.name,
+      required this.cityOfOrigin,
+      required this.age,
+      required this.height,
+      this.surname});
 }
