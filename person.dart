@@ -20,8 +20,8 @@ class Person {
   String name;
   String cityOfOrigin;
   int age;
-  int height;
   String? surname;
+  int height;
 
   Person(
       {required this.name,
@@ -31,19 +31,12 @@ class Person {
       this.surname});
 }
 
-Person person = Person(
-  name: "Your Name",
-  cityOfOrigin: "Your City",
-  age: 30,
-  height: 175,
-  surname: "Your Surname", // This is optional
-);
-
-// void main() {
-//   Class roger = Person(
-//     name: "ROGER",
-//     cityOfOrigin: 'Tallinn',
-//     age: 43,
-//     height: 187,
-//   );
-// }
+void main() {
+  Person person = Person(
+    name: "Your Name",
+    cityOfOrigin: "Your City",
+    age: 30,
+    height: 175,
+    surname: "Your Surname", // This is optional
+  );
+}
