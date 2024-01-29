@@ -16,25 +16,25 @@
 //     height: required
 //     surname: optional
 
-// class Person {
-//   String name;
-//   String cityOfOrigin;
-//   int age;
-//   String? surname;
-//   int height;
+class Person {
+  String name;
+  String cityOfOrigin;
+  int age;
+  String? surname;
+  int height;
 
-//   Person(
-//       {required this.name,
-//       required this.cityOfOrigin,
-//       required this.age,
-//       required this.height,
-//       this.surname});
-// }
+  Person(
+      {required this.name,
+      required this.cityOfOrigin,
+      required this.age,
+      required this.height,
+      this.surname});
+}
 
-Person Person({
-  required String name,
-  required String cityOfOrigin,
-  required int age,
-  required int height,
-  String? surname,
-})
+Person person = Person(
+  name: "John Doe",
+  cityOfOrigin: "New York",
+  age: 30,
+  height: 170,
+  surname: "Doe", // Optional
+);
