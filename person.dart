@@ -16,24 +16,7 @@
 //     height: required
 //     surname: optional
 
-void main() {
-  // Creating a person with all parameters
-  Person person1 = Person(
-    name: "Alice",
-    cityOfOrigin: "Wonderland",
-    age: 30,
-    height: 170,
-    surname: "Liddell",
-  );
-
-  // Creating a person without the optional surname
-  Person person2 = Person(
-    name: "Bob",
-    cityOfOrigin: "Springfield",
-    age: 28,
-    height: 175,
-  );
-}
+void main() {}
 
 class Person {
   String name;
