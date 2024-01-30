@@ -29,13 +29,9 @@ class Person {
   String? surname;
 
   // Constructor with named arguments
-  Person({
-    required this.name,
-    required this.cityOfOrigin,
-    required this.age,
-    required this.height,
-    this.surname, // Optional
-  });
+  Person(this.name, this.cityOfOrigin, this.age, this.height,
+      [this.surname] // Optional
+      );
 }
 
 
