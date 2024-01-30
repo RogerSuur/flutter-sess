@@ -19,20 +19,23 @@
 void main() {}
 
 class Person {
+  // Required attributes
   String name;
   String cityOfOrigin;
   int age;
   int height;
-  String surname; // Optional attribute
+
+  // Optional attribute
+  String? surname;
 
   // Constructor with named arguments
-  Person(
-    this.name,
-    this.cityOfOrigin,
-    this.age,
-    this.height,
+  Person({
+    required this.name,
+    required this.cityOfOrigin,
+    required this.age,
+    required this.height,
     this.surname, // Optional
-  );
+  });
 }
 
 
