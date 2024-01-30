@@ -16,11 +16,11 @@
 //     level: int
 
 class Student extends Person {
-  int patch;
+  int batch;
   int level;
   String _secretKey = "01";
 
-  Student(String name, String cityOfOrigin, int age, int height, int this.patch,
+  Student(String name, String cityOfOrigin, int age, int height, int this.batch,
       int this.level,
       [String? surname])
       : super(
