@@ -23,7 +23,7 @@ class Person {
   String cityOfOrigin;
   int age;
   int height;
-  String? surname; // Optional attribute
+  String surname; // Optional attribute
 
   // Constructor with named arguments
   Person(
